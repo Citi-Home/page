@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Login | Instant Payments</title>
+  <title>Login | Citi Bhank</title>
   <link rel="stylesheet" href="style.css" />
   <style>
     /* Embedded CSS for login page only */
@@ -94,9 +94,9 @@
 <body>
   <div class="login-container">
     <!-- ✅ Logo added -->
-    <img src="logo.png" alt="Logo" class="login-logo" />
+    <img src="citi.png" alt="Logo" class="login-logo" />
 
-    <h1>Welcome to Instant Payments</h1>
+    <h1>Welcome to Citi Bhank</h1>
     <form id="loginForm">
       <input type="text" id="username" placeholder="Username" required />
       <input type="password" id="password" placeholder="Password" required />
@@ -111,7 +111,7 @@
       const username = document.getElementById("username").value;
       const password = document.getElementById("password").value;
 
-      if (username === "Tiffany" && password === "Tiffany1234") {
+      if (username === "Samantha" && password === "Samantha1234") {
         window.location.href = "dashboard.html";
       } else {
         document.getElementById("errorMessage").textContent = "Invalid login details.";
